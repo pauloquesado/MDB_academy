@@ -1,0 +1,78 @@
+html, body{ 
+    height: 100%;
+    background-image: url(matrix.jfif);
+    background-size: cover;
+    background-position: center;
+    background-color: #051f35;
+    background-blend-mode: screen;
+
+}
+
+*{
+    color: white;
+}
+
+.heading{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    position: absolute;
+    top: 0px; bottom: 0px;right: 0px; left: 0px;
+}
+
+.title{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+}
+
+.subtitle{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.register{
+    width: 180px;
+    height: 50px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px auto;
+    display: block;
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid white;
+    border-radius: 5px;
+
+    transition: background-color 1000ms; color 1000ms;
+
+    /* margin-top: 25px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+    margin-left: 100px;
+    /* or simplified*/
+    /* margin: 25px 50px 75px 100px; */ 
+
+}
+
+
+.register:hover{
+    background-color: white;
+    color:#222222;
+    
+    transition: background-color 1000ms; color 1000ms;
+
+}
+
+/* p{
+/* to define style to all paragrafs*/
+} */
+
+/* .heading{
+    font-size:10px;
+}
+.summary{color:blue
+}
+.details{border:solid 1px red /* comentarios sao ao estilo c */
+} */
